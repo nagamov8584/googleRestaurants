@@ -1,0 +1,11 @@
+{
+  "root": "build/",
+  "routes": {
+    "/**": "index.html"
+  },
+  "proxies": {
+    "/google-proxy/": {
+      "origin": "${REACT_APP_G_API_URL}"
+    }
+  }
+}

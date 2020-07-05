@@ -1,0 +1,151 @@
+/*--------------------------------------- General */
+
+
+body {
+    background: #EFEFEA url('../img/background-main.png') no-repeat;
+    background-size: cover;
+}
+
+
+/*--------------------------------------- Direct change to Semantic UI */
+
+
+.ui.styled.accordion .accordion .content,
+.ui.styled.accordion .content {
+    padding: 0 0 .2em !important;
+}
+
+
+/*--------------------------------------- Additional Style Modifications */
+
+
+.data-display {
+    height: 100vh;
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+.rest-item-cont {
+    padding: .3em .5em;
+}
+
+.rest-item-buttons {
+    padding: 0;
+    text-align: center;
+    margin-bottom: 1em !important;
+}
+
+.search-toggle-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 7px 16px !important;
+}
+
+.paragraph-link {
+    cursor: pointer;
+    color: dodgerblue;
+}
+
+
+/*--------------------------------------- Custom Map Style */
+
+
+/*.loadingElement {*/
+/*    height: 100%;*/
+/*}*/
+
+/*.containerElement {*/
+/*    height: 100vh;*/
+/*}*/
+
+/*.mapElement {*/
+/*    height: 100%;*/
+/*}*/
+
+
+/*--------------------------------------- Helper Classes */
+
+
+.center-text {
+    text-align: center !important;
+}
+
+.center-image {
+    margin: 0 auto;
+    display: block !important;
+}
+
+.margin-zero {
+    margin: 0 !important;
+}
+
+.mb-1 {
+    margin-bottom: .2em;
+}
+
+.mb-2 {
+    margin-bottom: .4em !important;
+}
+
+.mr-2 {
+    margin-right: .4em !important;
+}
+
+.my-2 {
+    margin-bottom: .4em;
+    margin-top: .4em;
+}
+
+.mt-2 {
+    margin-top: .4em;
+ }
+
+.data-display-menu-segment {
+    width: 85vh;
+}
+
+.display-inline {
+    display: inline-block;
+}
+
+
+/*--------------------------------------- Responsive Adjustments */
+
+
+/* Mobile */
+
+@media (max-width: 767px) {
+
+    /* Direct change to Semantic UI */
+
+    .ui.styled.accordion {
+        width: 100%;
+    }
+
+    /* Custom Map Style */
+
+    .containerElement {
+        height: calc(100vh - 117px);
+    }
+
+    /* Additional Style Modifications */
+
+    .data-display-menu-segment {
+        width: 100%;
+    }
+}
+
+/* Custom Mobile */
+
+@media (max-width: 390px) {
+    .more-info {
+        display: none !important;
+    }
+}
+
+@media (max-width: 343px) {
+    .load-more-reviews {
+        margin-bottom: 10px !important;
+    }
+}

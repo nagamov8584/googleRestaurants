@@ -1,0 +1,71 @@
+
+[
+   
+   {
+      "restaurantName":"John Restaurant 1",
+      "address":"39 Rue des Petites Écuries, 75010 Paris",
+      "lat":48.8737815,
+      "long":2.3501649,
+      "ratings":[
+         {
+            "stars":4,
+            "comment":"Great! But not many veggie options."
+         },
+         {
+            "stars":5,
+            "comment":"My favorite restaurant!"
+         }
+      ]
+   },
+   
+   {
+      "restaurantName":"John Restaurant 2",
+      "address":"11 Langley St, Covent Garden, London WC2H 9JG",
+      "lat":51.5134075,
+      "long":-0.125747,
+      "ratings":[
+         {
+            "stars":4,
+            "comment":"Great! But not many veggie options."
+         },
+         {
+            "stars":5,
+            "comment":"My favorite restaurant!"
+         }
+      ]
+   },
+   {
+      "restaurantName":"John Restaurant 3",
+      "address":"22 Langley St, Covent Garden, London WC2H 9JG",
+      "lat":51.513390,
+      "long":-0.125419,
+      "ratings":[
+         {
+            "stars":4,
+            "comment":"Great! But not many veggie options."
+         },
+         {
+            "stars":5,
+            "comment":"My favorite restaurant!"
+         }
+      ]
+   },
+   {
+      "restaurantName":"John Restaurant 4",
+      "address":"30 Langley St, Covent Garden, London WC2H 9JG",
+      "lat":51.513043,
+      "long":-0.124942,
+      "ratings":[
+         {
+            "stars":5,
+            "comment":"Tiny pizzeria next to Sacre Coeur!"
+         },
+         {
+            "stars":3,
+            "comment":"Meh, it was fine."
+         }
+      ]
+   }
+]
+
+

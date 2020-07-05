@@ -1,0 +1,114 @@
+[
+  {
+    "id": 0,
+    "restaurantName":"John Restaurant 1",
+    "address":"39 Rue des Petites Écuries, 75010 Paris",
+    "lat":48.8737815,
+    "lng":2.3501649,
+    "details": {
+      "reviews": [
+        {
+          "id": "rev0",
+          "name": "Michael Max",
+          "stars":4,
+          "comment":"Great! But not many veggie options.",
+          "image_url": ""
+        },
+        {
+          "id": "rev1",
+          "name": "Paul Histamine",
+          "stars":5,
+          "comment":"My favorite restaurant!",
+          "imageUrl": ""
+        }
+      ],
+      "photoUrl": "https://bit.ly/2BgTNJ6",
+      "phoneNumber": "+44 1234 123 123",
+      "link": "http://blank.org/"
+    }
+  },
+  {
+    "id": 1,
+    "restaurantName":"John Restaurant 2",
+    "address":"11 Langley St, Covent Garden, London WC2H 9JG",
+    "lat":51.5134075,
+    "lng":-0.125747,
+    "details": {
+      "reviews": [
+        {
+          "id": "rev0",
+          "name": "Miguel Giunno",
+          "stars":4,
+          "comment":"Great! But not many veggie options.",
+          "imageUrl": ""
+        },
+        {
+          "id": "rev1",
+          "name": "Marco Polo",
+          "stars":5,
+          "comment":"My favorite restaurant!",
+          "imageUrl": ""
+        }
+      ],
+      "photoUrl": "https://bit.ly/2VQMb9S",
+      "phoneNumber": "+44 1234 123 123",
+      "link": "http://blank.org/"
+    }
+  },
+  {
+    "id": 2,
+    "restaurantName":"John Restaurant 3",
+    "address":"22 Langley St, Covent Garden, London WC2H 9JG",
+    "lat":51.5134075,
+    "lng":-0.125747,
+    "details": {
+      "reviews": [
+        {
+          "id": "rev0",
+          "name": "Paulo Mastado",
+          "stars":4,
+          "comment":"Great! But not many veggie options.",
+          "imageUrl": ""
+        },
+        {
+          "id": "rev1",
+          "name": "Monica Last",
+          "stars":5,
+          "comment":"My favorite restaurant!",
+          "imageUrl": ""
+        }
+      ],
+      "photoUrl": "https://bit.ly/2MlrzTW",
+      "phoneNumber": "+44 1234 123 123",
+      "link": "http://blank.org/"
+    }
+  },
+  {
+    "id": 3,
+    "restaurantName":"John Restaurant 4",
+    "address":"30 Langley St, Covent Garden, London WC2H 9JG",
+    "lat":51.513043,
+    "lng":-0.124942,
+    "details": {
+      "reviews": [
+        {
+          "id": "rev0",
+          "name": "Michael Max",
+          "stars":5,
+          "comment":"Tiny pizzeria next to Sacre Coeur!",
+          "imageUrl": ""
+        },
+        {
+          "id": "rev1",
+          "name": "Paul Histamine",
+          "stars":3,
+          "comment":"Meh, it was fine.",
+          "imageUrl": ""
+        }
+      ],
+      "photoUrl": "https://bit.ly/2ORHdYR",
+      "phoneNumber": "+44 1234 123 123",
+      "link": "http://blank.org/"
+    }
+  }
+]
